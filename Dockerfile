@@ -10,7 +10,7 @@ RUN apt-get update && apt-get install -y \
   #  grep browser_download_url.*balena-cli-v.*-linux-x64-standalone.zip | \
   #  cut -d : -f 2,3 | \
   #  xargs -n 1 curl -O -sSL && \
-  curl -O -sSL https://github.com/balena-io/balena-cli/releases/download/v13.3.3/balena-cli-v13.3.3-linux-x64-standalone.zip && \
+  curl -O -sSL https://github.com/balena-io/balena-cli/releases/download/v18.0.2/balena-cli-v18.0.2-linux-x64-standalone.zip && \
   unzip balena-cli-*-linux-x64-standalone.zip && \
   ln -s /opt/balena-cli/balena /usr/bin/ && \
   apt-get purge -y \
